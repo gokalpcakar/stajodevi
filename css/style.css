@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a span {
+    font-size: 12px;
+}
+
+nav a small {
+    font-size: 4px;
+}
+
+.navbar {
+    background-color: rgb(1, 174, 188);
+}
+
+header {
+    margin-top: 70px;
+    border-bottom: 5px solid rgb(1, 174, 188);
+}
+
+main {
+    color: rgb(1, 174, 188);
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main ul li a {
+    background-color: rgb(1, 174, 188);
+}
+
+main .container {
+    -webkit-box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: rgb(1, 174, 188);
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    nav a span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    nav a span {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    nav a span {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav a span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 374px) {
+    header {
+        margin-top: 100px;
+    }
+}
+
+
+/* navbar tarihi icin responsive font baslangici */
+
+@media (min-width: 576px) {
+    nav a small {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    nav a small {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 992px) {
+    nav a small {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav a small {
+        font-size: 12px;
+    }
+}
+
+
+/* navbar tarihi icin responsive font bitisi */
+
+
+/* footer-start */
+
+@media (max-width: 374px) {
+    footer li>a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    footer li>a {
+        font-size: 16px;
+    }
+}
+
+
+/* footer-end */
+
+
+/* haber-duyuru basligi icin baslangic */
+
+@media (min-width: 576px) {
+    .card h6 {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card h6 {
+        font-size: 16px;
+    }
+}
+
+
+/* haber-duyuru basligi icin bitis */
