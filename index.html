@@ -37,7 +37,7 @@
                             <button class="btn btn-warning text-white" type="button"><i class="fas fa-search"></i></button>
                         </div>
                         <div>
-                            <button class="btn btn-danger ml-3">English</button>
+                            <a href="http://cmf-en.nku.edu.tr/" target="_blank" class="btn btn-danger ml-3">English</a>
                         </div>
                     </div>
                 </form>
@@ -48,6 +48,7 @@
     </nav>
     <!-- navbar-end -->
 
+    <!-- image-slider'ın başladığı yer -->
     <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -76,25 +77,677 @@
             </a>
         </div>
     </header>
+    <!-- image-slider'ın bittiği yer -->
 
+    <!-- main kodlarının başladığı yer -->
     <main class="my-5">
 
+        <!-- container baslangici -->
         <div class="container border">
             <div class="row">
 
-                <div class="col-sm-4 col-lg-3 p-3 text-center">
+                <!-- sol-menu kodlarinin baslangici -->
+                <aside class="col-lg-3 p-3 text-center">
                     <h6 class="display-6 mb-4">Çorlu Mühendislik Fakültesi</h6>
 
                     <ul class="list-unstyled py-4 border-top border-bottom border-info">
-                        <li><a href="" class="btn btn-info form-control text-left"><i class="fas fa-bars"></i>  Kurumsal</a></li>
-                        <li><a href="" class="btn btn-info form-control text-left"><i class="fas fa-bars"></i>  Genel</a></li>
-                        <li><a href="" class="btn btn-info form-control text-left"><i class="fas fa-bars"></i>  Yönetim</a></li>
-                        <li><a href="" class="btn btn-info form-control text-left"><i class="fas fa-bars"></i>  Uzaktan Eğitim</a></li>
-                        <li><a href="" class="btn btn-info form-control text-left"><i class="fas fa-bars"></i>  Öğrenci İşlemleri</a></li>
-                    </ul>
-                </div>
 
-                <div class="col-sm-8 col-lg-9 p-3">
+                        <li><a href="index.html" class="btn btn-info form-control text-left"><i class="far fa-hand-point-right"> Ana Sayfa</i></a></li>
+
+                        <li><a class="btn btn-info form-control text-left" data-toggle="collapse" href="#collapse_ornek1"><i class="fas fa-bars"></i>  Kurumsal</a>
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="collapse_ornek1">
+                                <li>
+                                    <a class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Genel Bilgiler</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Misyon-Vizyon</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Akademik Personel</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> İdari Personel</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> İletişim</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="http://www.nku.edu.tr/" target="_blank" class="btn btn-danger form-control text-left"><i class="fas fa-bars"></i>  Üniversitemiz</a></li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#collapse_ornek2" data-toggle="collapse"><i class="fas fa-bars"></i>  Genel</a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="collapse_ornek2">
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Dekanlarımız</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right tasan-link"> Üniversite Tanıtım Filmi</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right tasan-link"> Personel Dilekçe ve Formlar</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right tasan-link"> Öğrenci Dilekçe Örnekleri</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Kayıt Ol</i></a>
+                                </li>
+                                <li>
+                                    <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&hd=nku.edu.tr&sacu=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank" class="btn btn-primary form-control text-left"><i class="far fa-hand-point-right"> E-Posta</i></a>
+                                </li>
+                                <li>
+                                    <a href="https://euniversite.nku.edu.tr/giris.php" target="_blank" class="btn btn-primary form-control text-left"><i class="far fa-hand-point-right"> E-Üniversite</i></a>
+                                </li>
+                                <li>
+                                    <a href="http://www.nku.edu.tr/yemekgoster" target="_blank" class="btn btn-primary form-control text-left"><i class="far fa-hand-point-right"> Yemek Listesi</i></a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#collapse_ornek3" data-toggle="collapse"><i class="fas fa-bars"></i>  Yönetim</a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="collapse_ornek3">
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"> <i class="far fa-hand-point-right"> Dekan</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Dekan Yardımcıları</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Organizasyon Şeması</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Yönetim Kurulu</i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Fakülte Kurulu</i></a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#ornek_collapse4" data-toggle="collapse"><i class="fas fa-bars"></i>  Uzaktan Eğitim</a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse4">
+                                <li><a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Öğretim Elemanı</i></a></li>
+                                <li><a href="" class="btn btn-success form-control text-left"><i class="far fa-hand-point-right"> Öğrenci</i></a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#ornek-collapse5" data-toggle="collapse"><i class="fas fa-bars"></i>  Öğrenci İşlemleri</a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek-collapse5">
+                                <li>
+                                    <a href="http://oidb.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Öğrenci İşleri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ogr.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Öğrenci Bilgi Sistemi</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://oidb.nku.edu.tr/AkademikTakvim/0/s/3882/3914" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Akademik Takvim</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Ders Katalogları</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Ders İçerikleri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Ders Planları</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Yeterlilikler</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> İstatistik</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Öğrenci Dilekçe Örnekleri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Yatay Geçiş İşlemleri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Mühendislik Tamamlama Programı</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Ders Programları</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Sınav Programları</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Diploması Hazır Olan Öğrencilerin Listesi</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a class="btn btn-info form-control text-left" href="#ornek-collapse6" data-toggle="collapse"><i class="fas fa-bars"></i>  Komisyonlar</a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek-collapse6">
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Eğitim-Öğretim Komisyonu</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Staj Komisyonu</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Mezuniyet Komisyonu</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Burs Komisyonu</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Bologna Koordinatörlüğü</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Farabi Koordinatörlüğü</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Erasmus Koordinatörlüğü</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Mevlana Koordinatörlüğü</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Uluslararası Öğrenci Koordinatörlüğü</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Kalite Temsilcileri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Kariyer Temsilcileri</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Bölüm Başkanları ve Yardımcıları</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Öğrenci Danışmanları</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#ornek_collapse7" data-toggle="collapse">
+                                <i class="fas fa-bars"></i> Staj
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse7">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Staj Başvuru Adımları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Staj Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Staj Tarihleri</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Staj İçin İstenen Evraklar</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Staj Komisyonu</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a class="btn btn-info form-control text-left" href="#ornek_collapse8" data-toggle="collapse">
+                                <i class="fas fa-bars"></i> Öğrenci Değişim Programları
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse8">
+
+                                <li>
+                                    <a href="http://nakdim.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Erasmus Plus Programı</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://farabi.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Farabi Değişim Programı</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://mevlana.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Mevlana Değişim Programı</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://bologna.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Bologna</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://iso.nku.edu.tr/" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Uluslararası Öğrenci Ofisi</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="btn btn-info form-control text-left" href="#ornek_collapse9" data-toggle="collapse">
+                                <i class="fas fa-bars"></i> Bölümlerimiz
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse9">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Bilgisayar Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Biyomedikal Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university"> Çevre Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Elektronik ve Haberleşme Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Endüstri Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university"> İnşaat Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Makine Mühendisliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-university tasan-link"> Tekstil Mühendisliği</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse10" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span class="tasan-link">Yönetmelikler/Yönergeler</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse10">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Lisans Yönetmeliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Lisansüstü Yönetmeliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Lisans Bitirme Yönetmeliği</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Staj Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Yaz Okulu Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Diploma Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://euniversite.nku.edu.tr/kullanicidosyalari/1261/files/muafiyet_ve_intibak_islemleri_yonergesi.pdf" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Muafiyet ve İntibak İşlemleri Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://bhi.nku.edu.tr/basinyonetim/resim/images/editorresimleri/1261/files/akademik_danismanlik_yonergesi.pdf" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Akademik Danışmanlık Yönergesi</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse11" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span>Kütüphane</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse11">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Tanıtım</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Yararlanma Koşulları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Bazı Yabancı Yayınlar</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse12" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span>Fotoğraf Galerisi</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse12">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-camera"> Fakülte Fotoğrafları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-camera"> Mezuniyet Töreni</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="fas fa-camera"> Sportif Faaliyetler</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse13" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span>Kalite - İç Kontrol</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse13">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Kalite Politikamız</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Birim Kalite Elçileri</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Faaliyet Raporları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Anketler</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> İş Akışları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Hizmet Envanteri</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> İSG Birimi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://kalite.nku.edu.tr/Dok%C3%BCmanlar/0/s/9852/13810" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right"> Dökümanlar</i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="http://cmf.nku.edu.tr/BizeYaz%C4%B1n/0/s/532/14447" target="_self" class="btn btn-info form-control text-left">
+
+                                <i class="far fa-hand-point-right"></i> <span>Bize Yazın</span>
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse14" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span>Aday Öğrenci</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse14">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Bölümlerimizin Tanıtım Videoları</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://www.universitetercihleri.com/frm/nku" target="_blank" class="btn btn-primary form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Üniversitemiz Tanıtım Videoları</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="#ornek_collapse15" data-toggle="collapse" class="btn btn-info form-control text-left">
+
+                                <i class="fas fa-bars"></i> <span>Sektör Tümleşik Eğitim (STE)</span>
+                            </a>
+
+                            <ul class="list-unstyled ml-4 mt-3 collapse" id="ornek_collapse15">
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Sektör Tümleşik Eğitim (STE) Nedir?</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Fakülte Sektör Tümleşik (STE) Eğitim Yönergesi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Anlaşmalı Olduğumuz Kurumlar</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Bölüm Bazında Koordinatörler</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right"> Gerekli Evraklar</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Sektör Tümleşik Eğitim (STE) Öğrenci Talebi</i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="btn btn-success form-control text-left">
+                                        <i class="far fa-hand-point-right tasan-link"> Sektör Tümleşik Eğitim (STE) Tanıtım Materyalleri</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a href="http://cmf.nku.edu.tr/S%C4%B1k%C3%A7aSorulanSorular/0/s/16089/20921" target="_self" class="btn btn-info form-control text-left">
+
+                                <i class="far fa-hand-point-right"></i> <span>Sıkça Sorulan Sorular</span>
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+                <!-- sol-menu kodlarinin bitisi -->
+
+                <!-- main kodunun ana icerik kodlarinin baslangici -->
+                <div class="col-lg-9 p-3">
 
                     <div class="row">
 
@@ -175,42 +828,42 @@
                         </div>
                     </div>
                 </div>
+                <!-- main kodunun ana icerik kodlarinin bitişi -->
             </div>
+        </div>
+        <!-- container bitisi -->
     </main>
+    <!-- main kodlarının bittiği yer -->
 
+    <!-- footer'ın başladığı yer -->
     <footer class="border-top" style="background-color: #f5f5f5;">
 
-        <div class="container">
+        <div class="container-fluid">
 
-            <div class="row">
+            <div class="p-3">
 
-                <div class="col-md-12">
+                <ul class="list-inline">
 
-                    <div class="p-3">
+                    <li class="list-inline-item">
+                        <a href="http://bidb.nku.edu.tr/" target="_blank">Bilgi İşlem</a>
+                    </li>
 
-                        <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://euniversite.nku.edu.tr/giris.php" target="_blank">E-Üniversite</a>
+                    </li>
 
-                            <li class="list-inline-item">
-                                <a href="http://bidb.nku.edu.tr/" target="_blank">Bilgi İşlem</a>
-                            </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">Mail</a>
+                    </li>
 
-                            <li class="list-inline-item">
-                                <a href="https://euniversite.nku.edu.tr/giris.php" target="_blank">E-Üniversite</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="#" target="_blank">Mail</a>
-                            </li>
-
-                            <li class="list-inline-item float-right">
-                                <a href="#">Ziyaretci Sayısı: 19918573</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                    <li class="list-inline-item float-right">
+                        <a href="#">Ziyaretci Sayısı: 19918573</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+    <!-- footer'ın bittiği yer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

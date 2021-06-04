@@ -39,6 +39,10 @@ main .container {
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
+.tasan-link {
+    font-size: 14px;
+}
+
 footer a {
     color: rgb(1, 174, 188);
     font-size: 16px;
@@ -73,6 +77,24 @@ footer a {
         margin-top: 100px;
     }
 }
+
+
+/* navbardaki taşan linkler için font baslangici */
+
+@media (max-width: 992px) {
+    .tasan-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 376px) {
+    .tasan-link {
+        font-size: 14px;
+    }
+}
+
+
+/* navbardaki taşan linkler için font bitisi */
 
 
 /* navbar tarihi icin responsive font baslangici */
